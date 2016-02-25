@@ -1,4 +1,25 @@
 body {
 	margin: 0px;
 	padding: 0px;
+	background-color: #000000;
+}
+
+section{
+	width: 900px;
+	margin: 0px auto;
+	background-color: #FFFFFF;
+}
+
+section > img{
+	max-width: 100%;
+}
+
+div, h1, h3, p {
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+.categories, .categories > a {
+	text-transform: uppercase;
+	color: #0D9BD2;
 }
