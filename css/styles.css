@@ -4,6 +4,11 @@ body {
 	background-color: #000000;
 }
 
+@font-face{
+	font-family: "fader";
+	src: url('fonts/WF-026510-009147-001253-3db37e90290cc07b3aba50bdd2a10396.woff');
+}
+
 section{
 	width: 900px;
 	margin: 0px auto;
@@ -19,7 +24,38 @@ div, h1, h3, p {
 	margin: 0 auto;
 }
 
-.categories, .categories > a {
+.categories {
+	color: #0D9BCF;
+	max-width: 640px;
+	min-width: 576px;
+}
+
+.categories > a {
 	text-transform: uppercase;
 	color: #0D9BD2;
+	font-family: "fader", sans-serif;
 }
+
+#title {
+	padding-top: 28px;
+	font-family: "fader", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	color: #222;
+	font-size: 56px;
+	line-height: 64.4px;
+	max-width: 640px;
+	min-width: 576px;
+}
+
+h3{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	font-family: "fader", sans-serif;
+	font-size: 22.4px;
+	font-weight: normal;
+	font-style: normal;
+	max-width: 640px;
+	min-width: 576px;
+}
+
